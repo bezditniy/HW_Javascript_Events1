@@ -1,0 +1,54 @@
+body{
+    background-color: cadetblue;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.circle{
+    border-radius: 50%;
+    box-shadow: 10px 10px 50px black;
+}
+
+.btn{
+    width: 200px;
+    height: 65px;
+    border-radius: 40px;
+    color: white;
+    background-color: cadetblue;
+    border: 0px;
+    box-shadow: 10px 10px 50px black;
+    font-size: large;
+    position: absolute;
+    right: 850px;
+    top: 310px;
+
+}
+
+#btnAction{
+    width: 180px;
+    height: 55px;
+    color: white;
+    background-color: cadetblue;
+    border: 0px;
+    border-radius: 40px;
+    box-shadow: 10px 10px 50px black;
+    font-size: large;
+    position: absolute;
+    right: 760px;
+    top: 315px;
+}
+
+#btnInput{
+    width: 160px;
+    height: 30px;
+    border-radius: 40px;
+    font-size: large;
+    border: 0px;
+    box-shadow: 10px 10px 50px black;
+    position: absolute;
+    right: 960px;
+    top: 330px;
+}
